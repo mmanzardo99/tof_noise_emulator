@@ -1,0 +1,8 @@
+<launch>
+  <rosparam file="$(find tof_noise_emulator)/config/noise_params.yaml" command="load"/>
+
+  <node pkg="tof_noise_emulator"
+        type="tof_noise_node"
+        name="pointcloud_noise_cpp"
+        output="screen" />
+</launch>
