@@ -52,7 +52,6 @@ private:
         sensor_msgs::PointCloud2 noisy_cloud = *msg;
 
         sensor_msgs::PointCloud2Modifier modifier(noisy_cloud);
-        modifier.setPointCloud2FieldsByString(1, "xyz");
 
         sensor_msgs::PointCloud2Iterator<float> it_x(noisy_cloud, "x");
         sensor_msgs::PointCloud2Iterator<float> it_y(noisy_cloud, "y");

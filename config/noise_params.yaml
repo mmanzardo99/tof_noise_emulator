@@ -1,5 +1,11 @@
 pointcloud_noise_cpp:
   input_topics:
-    - /tof2/points
     - /tof1/points
+    - /tof2/points
+    - /tof3/points
+    - /tof4/points
+    - /tof5/points
+    - /tof6/points
+    - /tof7/points
+    - /tof8/points
   noise_scale: 0.01
