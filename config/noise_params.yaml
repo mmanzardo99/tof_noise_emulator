@@ -9,3 +9,7 @@ pointcloud_noise_cpp:
     - /tof7/points
     - /tof8/points
   noise_scale: 0.01
+  box_size_x: 0.2     # half-extent in +x / -x direction
+  box_size_y: 0.4     # half-extent in +y / -y direction
+  box_size_z: 1.5     # half-extent in +z / -z direction
+  tf_target_frame: "face_shell_front"
